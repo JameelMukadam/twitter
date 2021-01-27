@@ -1,6 +1,6 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
 import { AppThunk, RootState } from './store';
-import { create } from '../services/api';
+import api from '../services/api';
 
 import type { Tweet } from '../services/api';
 
@@ -35,8 +35,6 @@ export const tweetSlice = createSlice({
 });
 
 export const { addingTweets, addingTweetsError, tweetsReceived } = tweetSlice.actions;
-
-const api = create();
 
 export const getTweets = (): AppThunk => async dispatch => {
   dispatch(addingTweets())

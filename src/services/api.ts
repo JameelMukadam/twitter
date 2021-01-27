@@ -26,6 +26,6 @@ const create = (baseURL: string = API) => {
   }
 }
 
-export {
-    create
-};
+const api = create();
+
+export default api;
