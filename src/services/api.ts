@@ -1,5 +1,13 @@
-import apisauce from 'apisauce'
+import apisauce, { ApiResponse } from 'apisauce'
 import { API } from '../config'
+
+export type Tweet = {
+    id: number;
+    tweet: string;
+    date: string;
+    claps: number;
+    userId: number;
+  }
 
 const create = (baseURL: string = API) => {
   const api = apisauce.create({
@@ -11,11 +19,13 @@ const create = (baseURL: string = API) => {
     timeout: 10000
   })
 
-  const getTweets = () => api.get('/tweets')
+  const getTweets: () => Promise<ApiResponse<Tweet[]>> = () => api.get('/tweets')
   
   return {
     getTweets
   }
 }
 
-export default create;
+export {
+    create
+};
