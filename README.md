@@ -4,6 +4,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+### `yarn start:prod`
+
+Requires `docker` to be running and `json-server` to be installed.
+This builds and runs the container for the web app and starts the `json-server` required by the app.
+
 ### `yarn start`
 
 Runs the app in the development mode.<br />
