@@ -1,0 +1,1054 @@
+{
+  "tweets": [
+    {
+      "id": 0,
+      "tweet": "duis do in ea veniam nulla excepteur voluptate esse fugiat quis mollit occaecat Lorem adipisicing in sit ad aute occaecat",
+      "date": "2015-01-17",
+      "claps": 47,
+      "userId": 1
+    },
+    {
+      "id": 1,
+      "tweet": "duis labore tempor eiusmod culpa in ex nostrud magna id qui fugiat ad commodo deserunt occaecat incididunt est proident deserunt",
+      "date": "2016-02-20",
+      "claps": 30,
+      "userId": 1
+    },
+    {
+      "id": 2,
+      "tweet": "minim ut consequat occaecat cupidatat minim Lorem occaecat amet aliqua qui labore dolor consectetur sunt commodo minim mollit exercitation ea",
+      "date": "2015-05-06",
+      "claps": 11,
+      "userId": 2
+    },
+    {
+      "id": 3,
+      "tweet": "esse ipsum ullamco adipisicing minim non non nisi id nulla fugiat deserunt do ipsum proident quis commodo in esse et",
+      "date": "2020-05-17",
+      "claps": 52,
+      "userId": 3
+    },
+    {
+      "id": 4,
+      "tweet": "voluptate esse est cupidatat est duis dolor ea quis eiusmod sint deserunt amet quis consectetur quis eiusmod consequat aute minim",
+      "date": "2019-02-28",
+      "claps": 77,
+      "userId": 1
+    },
+    {
+      "id": 5,
+      "tweet": "mollit ut ullamco irure id et esse sit sunt tempor cillum adipisicing dolore pariatur adipisicing culpa laboris dolore reprehenderit quis",
+      "date": "2017-07-25",
+      "claps": 87,
+      "userId": 2
+    },
+    {
+      "id": 6,
+      "tweet": "eu ut velit fugiat cillum ut do sunt laboris et est dolore exercitation est qui ex velit est dolore mollit",
+      "date": "2015-01-03",
+      "claps": 77,
+      "userId": 4
+    },
+    {
+      "id": 7,
+      "tweet": "in non eiusmod consectetur fugiat minim aliqua magna consequat officia enim nostrud qui consectetur dolore Lorem velit ipsum fugiat do",
+      "date": "2015-06-29",
+      "claps": 65,
+      "userId": 4
+    },
+    {
+      "id": 8,
+      "tweet": "minim commodo voluptate labore sint Lorem mollit nostrud do nostrud et enim anim excepteur fugiat enim amet voluptate ex qui",
+      "date": "2016-12-18",
+      "claps": 45,
+      "userId": 4
+    },
+    {
+      "id": 9,
+      "tweet": "voluptate fugiat exercitation consequat ad in commodo dolor occaecat ex eiusmod in in nulla occaecat dolore anim veniam exercitation dolore",
+      "date": "2018-12-10",
+      "claps": 68,
+      "userId": 2
+    },
+    {
+      "id": 10,
+      "tweet": "pariatur labore nostrud ex exercitation consequat esse cupidatat exercitation sunt duis id ipsum esse officia aliquip in excepteur cillum velit",
+      "date": "2015-03-21",
+      "claps": 20,
+      "userId": 3
+    },
+    {
+      "id": 11,
+      "tweet": "laboris labore nisi aliquip deserunt officia esse ipsum quis ipsum ullamco ex laborum reprehenderit eu ex in ipsum qui occaecat",
+      "date": "2019-10-24",
+      "claps": 1,
+      "userId": 1
+    },
+    {
+      "id": 12,
+      "tweet": "culpa commodo minim exercitation excepteur fugiat eu consectetur voluptate incididunt ad nisi exercitation et nisi veniam eiusmod officia ea commodo",
+      "date": "2017-10-27",
+      "claps": 41,
+      "userId": 1
+    },
+    {
+      "id": 13,
+      "tweet": "incididunt in ea labore et tempor cillum velit ex adipisicing non incididunt occaecat esse anim qui non mollit ut minim",
+      "date": "2020-01-09",
+      "claps": 28,
+      "userId": 3
+    },
+    {
+      "id": 14,
+      "tweet": "cupidatat aute pariatur magna magna culpa culpa laboris et excepteur consequat non ut qui id duis dolor ex in pariatur",
+      "date": "2014-03-10",
+      "claps": 100,
+      "userId": 1
+    },
+    {
+      "id": 15,
+      "tweet": "consectetur anim dolor ut minim irure ex ut aute id cillum dolore ex est excepteur eiusmod commodo deserunt elit excepteur",
+      "date": "2016-10-22",
+      "claps": 40,
+      "userId": 1
+    },
+    {
+      "id": 16,
+      "tweet": "sunt sunt tempor pariatur sit nulla dolor minim fugiat ipsum culpa sit ullamco labore elit cillum ullamco deserunt ipsum in",
+      "date": "2017-03-27",
+      "claps": 50,
+      "userId": 3
+    },
+    {
+      "id": 17,
+      "tweet": "esse anim velit exercitation et labore ullamco magna voluptate nisi eu esse ullamco laboris dolor magna sit sunt proident commodo",
+      "date": "2018-03-23",
+      "claps": 91,
+      "userId": 3
+    },
+    {
+      "id": 18,
+      "tweet": "magna dolore in nostrud eu consequat ad anim tempor laborum pariatur do sit veniam ad ullamco consequat sint irure consequat",
+      "date": "2019-09-19",
+      "claps": 63,
+      "userId": 2
+    },
+    {
+      "id": 19,
+      "tweet": "veniam nulla aliquip enim irure deserunt officia exercitation laboris veniam do Lorem sit cupidatat nisi mollit veniam ad qui sint",
+      "date": "2019-09-09",
+      "claps": 7,
+      "userId": 1
+    },
+    {
+      "id": 20,
+      "tweet": "laboris sunt fugiat excepteur pariatur irure pariatur duis mollit Lorem occaecat esse consequat ad laboris mollit incididunt sit commodo ex",
+      "date": "2016-04-02",
+      "claps": 51,
+      "userId": 2
+    },
+    {
+      "id": 21,
+      "tweet": "ut occaecat excepteur non veniam id ullamco adipisicing aliquip qui velit adipisicing nostrud aliqua amet eu laborum voluptate enim anim",
+      "date": "2019-11-11",
+      "claps": 62,
+      "userId": 3
+    },
+    {
+      "id": 22,
+      "tweet": "dolor ipsum incididunt ut non reprehenderit eu ipsum laboris dolore officia anim culpa aliquip ipsum ad deserunt eu pariatur et",
+      "date": "2016-02-02",
+      "claps": 81,
+      "userId": 3
+    },
+    {
+      "id": 23,
+      "tweet": "cupidatat Lorem deserunt aliqua consequat laboris labore consequat tempor aliquip ex proident est veniam culpa aute ullamco eiusmod veniam magna",
+      "date": "2018-03-24",
+      "claps": 79,
+      "userId": 4
+    },
+    {
+      "id": 24,
+      "tweet": "officia excepteur et veniam minim Lorem laborum magna velit elit duis excepteur commodo qui culpa ullamco sunt id culpa est",
+      "date": "2014-10-18",
+      "claps": 82,
+      "userId": 1
+    },
+    {
+      "id": 25,
+      "tweet": "voluptate enim velit laborum cupidatat quis consectetur deserunt anim proident irure proident voluptate do in laborum eiusmod labore magna est",
+      "date": "2014-08-19",
+      "claps": 9,
+      "userId": 2
+    },
+    {
+      "id": 26,
+      "tweet": "esse proident irure laborum eiusmod cupidatat aliqua commodo esse est adipisicing enim do enim occaecat laboris ea pariatur aliqua officia",
+      "date": "2017-06-03",
+      "claps": 42,
+      "userId": 4
+    },
+    {
+      "id": 27,
+      "tweet": "magna velit sit ut non cupidatat nisi minim ad occaecat ea id duis ad velit nulla id cillum veniam ipsum",
+      "date": "2019-11-01",
+      "claps": 52,
+      "userId": 1
+    },
+    {
+      "id": 28,
+      "tweet": "cupidatat dolore qui excepteur ad laborum exercitation nulla ex minim aliquip minim ea velit nisi enim deserunt non ullamco quis",
+      "date": "2018-03-23",
+      "claps": 90,
+      "userId": 4
+    },
+    {
+      "id": 29,
+      "tweet": "magna laboris sunt aliquip fugiat incididunt amet aliquip culpa cupidatat ipsum qui occaecat deserunt exercitation sint cupidatat cillum sint eu",
+      "date": "2015-04-24",
+      "claps": 61,
+      "userId": 2
+    },
+    {
+      "id": 30,
+      "tweet": "fugiat deserunt nisi officia labore cillum laboris ipsum reprehenderit ullamco esse duis eiusmod dolore minim culpa labore ut duis officia",
+      "date": "2018-05-07",
+      "claps": 77,
+      "userId": 1
+    },
+    {
+      "id": 31,
+      "tweet": "nostrud cupidatat aute pariatur quis reprehenderit irure officia officia sunt ut in ex incididunt sit sunt laborum veniam in cupidatat",
+      "date": "2015-08-20",
+      "claps": 43,
+      "userId": 2
+    },
+    {
+      "id": 32,
+      "tweet": "aliquip Lorem laborum consequat duis eu irure cupidatat consequat fugiat aute et pariatur irure consectetur eu aliquip veniam veniam quis",
+      "date": "2017-08-01",
+      "claps": 86,
+      "userId": 3
+    },
+    {
+      "id": 33,
+      "tweet": "magna Lorem esse excepteur deserunt id Lorem deserunt mollit qui tempor nisi cillum consequat deserunt anim ipsum nostrud commodo labore",
+      "date": "2020-03-12",
+      "claps": 20,
+      "userId": 1
+    },
+    {
+      "id": 34,
+      "tweet": "mollit tempor laborum veniam laboris ut incididunt adipisicing voluptate sint nostrud elit tempor excepteur duis ad sunt eu id aliqua",
+      "date": "2014-11-19",
+      "claps": 53,
+      "userId": 3
+    },
+    {
+      "id": 35,
+      "tweet": "aute commodo labore nostrud ullamco voluptate esse quis sint occaecat anim cillum dolore et non proident irure veniam do consequat",
+      "date": "2016-07-31",
+      "claps": 40,
+      "userId": 4
+    },
+    {
+      "id": 36,
+      "tweet": "ut exercitation nisi fugiat proident reprehenderit incididunt ex veniam esse sint commodo aute labore dolor esse eu tempor do proident",
+      "date": "2016-10-18",
+      "claps": 2,
+      "userId": 3
+    },
+    {
+      "id": 37,
+      "tweet": "commodo laboris laboris elit fugiat consequat irure sit sint id proident magna incididunt occaecat laborum elit ex aliqua nulla velit",
+      "date": "2015-01-30",
+      "claps": 89,
+      "userId": 1
+    },
+    {
+      "id": 38,
+      "tweet": "culpa anim commodo consequat laboris nisi in aliquip elit voluptate velit culpa ipsum sunt proident eiusmod consequat labore deserunt nulla",
+      "date": "2015-05-26",
+      "claps": 73,
+      "userId": 1
+    },
+    {
+      "id": 39,
+      "tweet": "officia do laboris ut anim est esse esse et incididunt qui duis reprehenderit pariatur eu Lorem ullamco proident elit amet",
+      "date": "2015-02-25",
+      "claps": 18,
+      "userId": 3
+    },
+    {
+      "id": 40,
+      "tweet": "enim sit aute cupidatat laboris ipsum irure sunt dolore do veniam Lorem deserunt dolore non irure officia deserunt do nostrud",
+      "date": "2016-12-20",
+      "claps": 93,
+      "userId": 2
+    },
+    {
+      "id": 41,
+      "tweet": "incididunt ullamco sunt sunt deserunt dolor dolor adipisicing sint minim reprehenderit aliquip nostrud labore veniam deserunt quis minim nulla cupidatat",
+      "date": "2016-11-25",
+      "claps": 40,
+      "userId": 1
+    },
+    {
+      "id": 42,
+      "tweet": "veniam et esse duis cillum dolor adipisicing amet aute duis aute cillum ex Lorem duis dolor officia occaecat commodo proident",
+      "date": "2018-08-01",
+      "claps": 15,
+      "userId": 3
+    },
+    {
+      "id": 43,
+      "tweet": "cupidatat eu aute nisi aliquip excepteur deserunt minim veniam occaecat amet labore elit ad officia consectetur elit mollit et nisi",
+      "date": "2018-07-02",
+      "claps": 80,
+      "userId": 1
+    },
+    {
+      "id": 44,
+      "tweet": "velit cupidatat duis esse cupidatat do adipisicing officia cillum Lorem reprehenderit ullamco esse aliquip fugiat consectetur ullamco cupidatat mollit officia",
+      "date": "2019-12-25",
+      "claps": 29,
+      "userId": 2
+    },
+    {
+      "id": 45,
+      "tweet": "eiusmod est laborum nulla deserunt anim aute mollit consequat dolore incididunt enim sint sunt ut voluptate veniam quis aliquip irure",
+      "date": "2016-05-15",
+      "claps": 89,
+      "userId": 4
+    },
+    {
+      "id": 46,
+      "tweet": "officia reprehenderit sunt eiusmod pariatur qui eiusmod est incididunt eu magna ipsum sit reprehenderit eiusmod voluptate laboris aute labore eiusmod",
+      "date": "2018-04-19",
+      "claps": 69,
+      "userId": 4
+    },
+    {
+      "id": 47,
+      "tweet": "labore amet eu quis dolore id deserunt ut incididunt esse deserunt id tempor minim occaecat est reprehenderit fugiat irure commodo",
+      "date": "2019-09-14",
+      "claps": 10,
+      "userId": 3
+    },
+    {
+      "id": 48,
+      "tweet": "laboris laboris mollit ullamco consequat consectetur id est duis incididunt tempor nulla id fugiat duis duis duis sunt nulla qui",
+      "date": "2014-03-07",
+      "claps": 65,
+      "userId": 4
+    },
+    {
+      "id": 49,
+      "tweet": "cupidatat incididunt amet veniam consectetur amet ad id dolore reprehenderit nostrud ipsum anim do proident ex nisi ullamco ullamco elit",
+      "date": "2019-07-07",
+      "claps": 26,
+      "userId": 3
+    },
+    {
+      "id": 50,
+      "tweet": "mollit incididunt et fugiat magna pariatur aute laboris officia eu laboris ea eu aliquip officia ea aliqua aliqua minim exercitation",
+      "date": "2018-07-04",
+      "claps": 2,
+      "userId": 3
+    },
+    {
+      "id": 51,
+      "tweet": "ut est nisi nisi tempor cillum anim ut exercitation sunt est nisi tempor laboris excepteur est laborum ex anim irure",
+      "date": "2018-06-23",
+      "claps": 98,
+      "userId": 1
+    },
+    {
+      "id": 52,
+      "tweet": "excepteur labore eu ex in commodo velit enim aliquip dolor proident elit magna dolore labore sit magna occaecat fugiat officia",
+      "date": "2020-02-27",
+      "claps": 80,
+      "userId": 2
+    },
+    {
+      "id": 53,
+      "tweet": "do eiusmod deserunt excepteur dolor magna pariatur amet exercitation adipisicing minim qui quis et aliqua id consequat adipisicing est ullamco",
+      "date": "2020-04-20",
+      "claps": 41,
+      "userId": 2
+    },
+    {
+      "id": 54,
+      "tweet": "commodo minim tempor enim aute ullamco exercitation enim sint est dolor nulla magna cillum ex mollit Lorem enim cillum ipsum",
+      "date": "2019-11-15",
+      "claps": 33,
+      "userId": 2
+    },
+    {
+      "id": 55,
+      "tweet": "sit velit ut labore enim nulla occaecat ex occaecat nulla irure fugiat mollit ut fugiat nisi tempor adipisicing sunt laboris",
+      "date": "2017-03-17",
+      "claps": 48,
+      "userId": 3
+    },
+    {
+      "id": 56,
+      "tweet": "sunt tempor nostrud qui et ex ipsum consequat tempor occaecat ut Lorem adipisicing occaecat irure sit exercitation culpa fugiat est",
+      "date": "2016-12-30",
+      "claps": 64,
+      "userId": 1
+    },
+    {
+      "id": 57,
+      "tweet": "sunt et amet tempor pariatur eu exercitation cillum laboris sint eu non velit exercitation duis occaecat adipisicing deserunt qui ut",
+      "date": "2020-01-21",
+      "claps": 87,
+      "userId": 3
+    },
+    {
+      "id": 58,
+      "tweet": "minim tempor et reprehenderit quis sunt ea esse qui tempor sunt id velit culpa ad ad mollit pariatur enim mollit",
+      "date": "2014-08-30",
+      "claps": 93,
+      "userId": 2
+    },
+    {
+      "id": 59,
+      "tweet": "aute aliqua irure nisi cillum irure anim sint occaecat magna officia aliqua proident adipisicing proident ut sunt excepteur aute nulla",
+      "date": "2015-11-16",
+      "claps": 91,
+      "userId": 2
+    },
+    {
+      "id": 60,
+      "tweet": "exercitation nisi mollit aute adipisicing nostrud ea et dolore ut aliqua fugiat veniam adipisicing veniam esse commodo excepteur ad esse",
+      "date": "2014-07-22",
+      "claps": 28,
+      "userId": 4
+    },
+    {
+      "id": 61,
+      "tweet": "sunt ut esse officia velit aliquip dolore anim ad dolor consectetur anim dolore est et eiusmod consectetur in elit et",
+      "date": "2019-08-22",
+      "claps": 27,
+      "userId": 4
+    },
+    {
+      "id": 62,
+      "tweet": "sit sint minim aliquip est fugiat deserunt eu fugiat minim nisi exercitation veniam nulla adipisicing veniam est ex quis sint",
+      "date": "2015-07-16",
+      "claps": 7,
+      "userId": 3
+    },
+    {
+      "id": 63,
+      "tweet": "consectetur commodo nostrud sit aute eu sunt eu id aute esse aliqua laboris qui do mollit et nisi adipisicing ea",
+      "date": "2017-03-27",
+      "claps": 63,
+      "userId": 3
+    },
+    {
+      "id": 64,
+      "tweet": "quis consectetur commodo occaecat excepteur laboris aute enim est eu in labore sint veniam duis ullamco amet laborum sit non",
+      "date": "2014-12-02",
+      "claps": 27,
+      "userId": 3
+    },
+    {
+      "id": 65,
+      "tweet": "commodo dolor dolor consequat laboris exercitation anim adipisicing sint eu excepteur ex ea nulla ipsum aliqua duis incididunt veniam ut",
+      "date": "2016-10-02",
+      "claps": 96,
+      "userId": 3
+    },
+    {
+      "id": 66,
+      "tweet": "excepteur cupidatat duis elit voluptate voluptate duis irure duis elit amet dolore laboris qui minim pariatur est est magna quis",
+      "date": "2017-11-16",
+      "claps": 69,
+      "userId": 3
+    },
+    {
+      "id": 67,
+      "tweet": "labore irure laborum tempor est proident exercitation non fugiat exercitation ut est esse excepteur consectetur est nulla aliqua do enim",
+      "date": "2019-03-27",
+      "claps": 12,
+      "userId": 4
+    },
+    {
+      "id": 68,
+      "tweet": "consectetur sunt ipsum pariatur est aliquip aliquip adipisicing Lorem ullamco excepteur mollit adipisicing duis dolor incididunt labore velit consectetur consequat",
+      "date": "2019-04-30",
+      "claps": 46,
+      "userId": 4
+    },
+    {
+      "id": 69,
+      "tweet": "anim adipisicing elit excepteur deserunt do deserunt nisi voluptate Lorem pariatur est ipsum enim duis dolor anim occaecat sunt nisi",
+      "date": "2016-01-16",
+      "claps": 83,
+      "userId": 1
+    },
+    {
+      "id": 70,
+      "tweet": "id laborum irure consequat aliqua ullamco id minim consectetur pariatur aute elit aliqua non tempor amet proident enim magna eiusmod",
+      "date": "2019-02-22",
+      "claps": 33,
+      "userId": 4
+    },
+    {
+      "id": 71,
+      "tweet": "ut Lorem fugiat aliquip non culpa et anim magna laboris do deserunt magna ullamco eiusmod deserunt ex Lorem occaecat reprehenderit",
+      "date": "2017-08-21",
+      "claps": 36,
+      "userId": 2
+    },
+    {
+      "id": 72,
+      "tweet": "dolor reprehenderit do officia elit culpa sint in non mollit ad consequat pariatur non aliquip incididunt aute laborum cupidatat cillum",
+      "date": "2016-06-08",
+      "claps": 74,
+      "userId": 1
+    },
+    {
+      "id": 73,
+      "tweet": "ullamco qui veniam cupidatat eu Lorem consectetur officia ea ea irure laborum sint non aliquip ipsum consequat aute minim commodo",
+      "date": "2017-11-01",
+      "claps": 39,
+      "userId": 1
+    },
+    {
+      "id": 74,
+      "tweet": "nulla labore quis non Lorem ipsum mollit et sit dolore ex aute enim sit mollit elit incididunt ipsum elit magna",
+      "date": "2016-04-19",
+      "claps": 56,
+      "userId": 2
+    },
+    {
+      "id": 75,
+      "tweet": "veniam laborum aute incididunt non sint adipisicing elit id consectetur irure laborum cupidatat qui aute labore esse eu laborum aliquip",
+      "date": "2017-01-07",
+      "claps": 83,
+      "userId": 3
+    },
+    {
+      "id": 76,
+      "tweet": "duis pariatur in irure nostrud cupidatat consectetur amet dolore tempor eu eu reprehenderit cupidatat elit sit non excepteur labore exercitation",
+      "date": "2016-06-26",
+      "claps": 32,
+      "userId": 3
+    },
+    {
+      "id": 77,
+      "tweet": "ea consequat ex labore magna excepteur nostrud cillum eu sit irure aliquip exercitation do sint reprehenderit sit voluptate sint veniam",
+      "date": "2019-08-11",
+      "claps": 90,
+      "userId": 4
+    },
+    {
+      "id": 78,
+      "tweet": "ea ipsum id ad aliquip nulla velit culpa enim duis occaecat sunt enim occaecat proident adipisicing velit ipsum elit incididunt",
+      "date": "2014-02-06",
+      "claps": 98,
+      "userId": 4
+    },
+    {
+      "id": 79,
+      "tweet": "dolore ex amet ex dolore commodo esse Lorem fugiat veniam cupidatat veniam eu culpa officia labore aliquip anim laborum adipisicing",
+      "date": "2019-03-08",
+      "claps": 74,
+      "userId": 3
+    },
+    {
+      "id": 80,
+      "tweet": "commodo veniam fugiat mollit ut consequat occaecat et nulla laborum irure culpa culpa enim fugiat laborum sunt deserunt anim dolor",
+      "date": "2017-08-04",
+      "claps": 38,
+      "userId": 1
+    },
+    {
+      "id": 81,
+      "tweet": "amet ad reprehenderit aute excepteur ipsum dolor nulla proident consequat nostrud ad reprehenderit sunt tempor fugiat culpa nulla tempor voluptate",
+      "date": "2020-02-01",
+      "claps": 17,
+      "userId": 2
+    },
+    {
+      "id": 82,
+      "tweet": "sunt in ex do veniam reprehenderit officia ullamco id eu sit magna mollit elit quis amet nisi minim consectetur sint",
+      "date": "2016-06-14",
+      "claps": 35,
+      "userId": 4
+    },
+    {
+      "id": 83,
+      "tweet": "culpa tempor et et sint nostrud aute non ut proident ea Lorem incididunt reprehenderit nulla sint pariatur magna sunt amet",
+      "date": "2015-02-08",
+      "claps": 94,
+      "userId": 2
+    },
+    {
+      "id": 84,
+      "tweet": "id excepteur non consectetur dolor est Lorem est laboris ipsum nisi tempor ullamco aliquip sint culpa irure nisi ex nisi",
+      "date": "2014-08-31",
+      "claps": 15,
+      "userId": 1
+    },
+    {
+      "id": 85,
+      "tweet": "voluptate dolor velit ut nulla est est labore laboris enim anim quis amet nisi quis magna velit sunt mollit cupidatat",
+      "date": "2018-08-29",
+      "claps": 41,
+      "userId": 4
+    },
+    {
+      "id": 86,
+      "tweet": "deserunt consectetur eiusmod adipisicing esse magna proident tempor culpa id officia labore laboris eiusmod consequat eiusmod pariatur tempor officia veniam",
+      "date": "2015-09-22",
+      "claps": 65,
+      "userId": 3
+    },
+    {
+      "id": 87,
+      "tweet": "velit velit exercitation in sunt labore velit eiusmod aute consequat est fugiat consequat officia ipsum do elit id laboris sit",
+      "date": "2016-02-06",
+      "claps": 34,
+      "userId": 3
+    },
+    {
+      "id": 88,
+      "tweet": "eu aliquip do dolore est magna exercitation qui nostrud exercitation consequat Lorem eu aliqua esse irure commodo do sunt et",
+      "date": "2014-06-23",
+      "claps": 63,
+      "userId": 1
+    },
+    {
+      "id": 89,
+      "tweet": "reprehenderit irure nulla pariatur cillum aute ea adipisicing sunt aute aute reprehenderit est velit esse esse dolor et occaecat consectetur",
+      "date": "2016-10-26",
+      "claps": 62,
+      "userId": 2
+    },
+    {
+      "id": 90,
+      "tweet": "aute aute enim culpa ea fugiat qui est enim fugiat duis quis esse mollit quis id est fugiat id exercitation",
+      "date": "2016-07-02",
+      "claps": 88,
+      "userId": 3
+    },
+    {
+      "id": 91,
+      "tweet": "anim dolor fugiat excepteur non in do adipisicing adipisicing sit eu non elit reprehenderit consequat voluptate commodo voluptate culpa reprehenderit",
+      "date": "2016-04-23",
+      "claps": 78,
+      "userId": 2
+    },
+    {
+      "id": 92,
+      "tweet": "quis commodo et ipsum consequat excepteur laborum est eu enim cillum ipsum quis mollit tempor culpa nulla quis do dolor",
+      "date": "2017-06-04",
+      "claps": 20,
+      "userId": 2
+    },
+    {
+      "id": 93,
+      "tweet": "eiusmod nostrud duis Lorem occaecat proident pariatur non aute sit velit nisi minim ex ad officia cupidatat ut velit elit",
+      "date": "2017-03-28",
+      "claps": 51,
+      "userId": 2
+    },
+    {
+      "id": 94,
+      "tweet": "irure anim reprehenderit fugiat mollit tempor id dolore mollit laboris nisi occaecat dolor voluptate consequat voluptate est ullamco pariatur consequat",
+      "date": "2018-07-21",
+      "claps": 54,
+      "userId": 3
+    },
+    {
+      "id": 95,
+      "tweet": "consequat laboris quis deserunt nulla veniam irure deserunt laborum exercitation officia aute do laboris sunt dolore ipsum sunt duis sint",
+      "date": "2019-08-28",
+      "claps": 85,
+      "userId": 1
+    },
+    {
+      "id": 96,
+      "tweet": "non et excepteur consectetur sunt et fugiat ipsum est commodo sunt ipsum qui consequat irure mollit ullamco in pariatur irure",
+      "date": "2014-08-02",
+      "claps": 57,
+      "userId": 2
+    },
+    {
+      "id": 97,
+      "tweet": "dolore laboris deserunt occaecat occaecat deserunt exercitation esse ex commodo ipsum voluptate enim veniam do cillum reprehenderit eiusmod veniam culpa",
+      "date": "2014-04-16",
+      "claps": 8,
+      "userId": 4
+    },
+    {
+      "id": 98,
+      "tweet": "nisi enim veniam laborum duis nisi voluptate esse eu labore adipisicing aliqua fugiat duis ad voluptate commodo cupidatat nostrud cillum",
+      "date": "2020-04-04",
+      "claps": 31,
+      "userId": 3
+    },
+    {
+      "id": 99,
+      "tweet": "aute id duis reprehenderit mollit eu ipsum reprehenderit excepteur id fugiat proident elit cillum labore qui non commodo voluptate aute",
+      "date": "2014-03-28",
+      "claps": 69,
+      "userId": 3
+    },
+    {
+      "id": 100,
+      "tweet": "incididunt veniam eiusmod excepteur id tempor dolor occaecat cupidatat sit aliquip mollit minim incididunt veniam veniam occaecat ut consequat eiusmod",
+      "date": "2015-10-18",
+      "claps": 22,
+      "userId": 3
+    },
+    {
+      "id": 101,
+      "tweet": "aliqua sint adipisicing Lorem excepteur voluptate ut id elit consequat tempor adipisicing est fugiat ex id adipisicing minim elit anim",
+      "date": "2015-11-05",
+      "claps": 3,
+      "userId": 4
+    },
+    {
+      "id": 102,
+      "tweet": "est deserunt ipsum ea laborum laboris consectetur fugiat fugiat in voluptate fugiat id velit in cillum ullamco laboris enim eiusmod",
+      "date": "2016-01-11",
+      "claps": 32,
+      "userId": 4
+    },
+    {
+      "id": 103,
+      "tweet": "dolore ipsum cupidatat eu consequat reprehenderit anim non Lorem id veniam non proident esse officia aliqua sit Lorem esse nostrud",
+      "date": "2017-02-09",
+      "claps": 65,
+      "userId": 4
+    },
+    {
+      "id": 104,
+      "tweet": "incididunt ex minim nulla consectetur nostrud labore enim eiusmod Lorem tempor sunt proident eiusmod duis voluptate fugiat ad in dolore",
+      "date": "2016-02-17",
+      "claps": 79,
+      "userId": 4
+    },
+    {
+      "id": 105,
+      "tweet": "duis enim quis in sunt eu excepteur sunt velit reprehenderit consequat magna tempor exercitation eiusmod cillum laboris est qui tempor",
+      "date": "2020-01-21",
+      "claps": 29,
+      "userId": 2
+    },
+    {
+      "id": 106,
+      "tweet": "ad reprehenderit esse culpa incididunt reprehenderit ipsum est magna non id irure consequat reprehenderit fugiat do aliqua est sint ad",
+      "date": "2019-11-28",
+      "claps": 7,
+      "userId": 3
+    },
+    {
+      "id": 107,
+      "tweet": "quis ad mollit nulla deserunt sunt id eiusmod cupidatat anim sint exercitation do qui cillum sit et officia incididunt nulla",
+      "date": "2016-11-21",
+      "claps": 64,
+      "userId": 1
+    },
+    {
+      "id": 108,
+      "tweet": "fugiat sunt do voluptate incididunt mollit ullamco aute nisi quis tempor deserunt consequat ut commodo incididunt eiusmod culpa minim laboris",
+      "date": "2017-11-19",
+      "claps": 97,
+      "userId": 4
+    },
+    {
+      "id": 109,
+      "tweet": "id non aute occaecat sunt non labore laborum non elit mollit in laboris aliquip id ea laboris pariatur consectetur cillum",
+      "date": "2020-05-11",
+      "claps": 5,
+      "userId": 4
+    },
+    {
+      "id": 110,
+      "tweet": "mollit ullamco est esse consequat eu deserunt nisi nisi magna reprehenderit tempor exercitation exercitation ullamco Lorem nostrud fugiat aliquip culpa",
+      "date": "2016-03-05",
+      "claps": 56,
+      "userId": 1
+    },
+    {
+      "id": 111,
+      "tweet": "aliquip quis aute ullamco in aliqua proident id amet exercitation non pariatur labore duis officia nisi pariatur eu ut id",
+      "date": "2016-01-15",
+      "claps": 81,
+      "userId": 3
+    },
+    {
+      "id": 112,
+      "tweet": "velit est ipsum consectetur culpa nostrud reprehenderit qui elit nostrud quis reprehenderit laboris non sunt Lorem nisi esse veniam ut",
+      "date": "2014-10-26",
+      "claps": 0,
+      "userId": 4
+    },
+    {
+      "id": 113,
+      "tweet": "ut elit consequat proident exercitation enim adipisicing Lorem eiusmod proident esse quis mollit ullamco do laboris Lorem nostrud in aute",
+      "date": "2019-08-25",
+      "claps": 39,
+      "userId": 2
+    },
+    {
+      "id": 114,
+      "tweet": "elit amet qui voluptate reprehenderit culpa sit velit est quis voluptate ut duis velit cillum laboris elit enim pariatur elit",
+      "date": "2017-04-20",
+      "claps": 11,
+      "userId": 1
+    },
+    {
+      "id": 115,
+      "tweet": "id mollit tempor magna fugiat nisi occaecat esse deserunt elit cupidatat aute deserunt minim et in ex est nostrud aute",
+      "date": "2015-12-27",
+      "claps": 46,
+      "userId": 2
+    },
+    {
+      "id": 116,
+      "tweet": "mollit minim quis ex qui laboris ut cupidatat enim dolore dolor quis pariatur deserunt commodo qui aliquip nulla officia anim",
+      "date": "2014-02-08",
+      "claps": 32,
+      "userId": 3
+    },
+    {
+      "id": 117,
+      "tweet": "commodo labore fugiat sunt velit anim sunt tempor cillum occaecat adipisicing velit ad cupidatat deserunt eiusmod dolor proident laborum consequat",
+      "date": "2014-07-20",
+      "claps": 0,
+      "userId": 3
+    },
+    {
+      "id": 118,
+      "tweet": "aute elit laboris cupidatat tempor id nulla minim ullamco laboris minim nostrud reprehenderit do esse labore ea cupidatat officia non",
+      "date": "2019-06-04",
+      "claps": 73,
+      "userId": 2
+    },
+    {
+      "id": 119,
+      "tweet": "amet culpa do exercitation aliqua id culpa Lorem in eu et pariatur ex incididunt magna est fugiat anim excepteur aliqua",
+      "date": "2019-08-28",
+      "claps": 74,
+      "userId": 1
+    },
+    {
+      "id": 120,
+      "tweet": "labore cupidatat amet ad enim magna labore elit dolor proident ipsum eiusmod laboris dolore veniam ea Lorem incididunt non laboris",
+      "date": "2017-06-08",
+      "claps": 63,
+      "userId": 3
+    },
+    {
+      "id": 121,
+      "tweet": "do deserunt occaecat consequat esse non in nulla quis cupidatat voluptate elit dolor deserunt esse mollit sint elit magna adipisicing",
+      "date": "2018-05-03",
+      "claps": 78,
+      "userId": 3
+    },
+    {
+      "id": 122,
+      "tweet": "elit eu culpa culpa non voluptate aliqua elit qui proident tempor magna quis pariatur anim proident officia sit adipisicing quis",
+      "date": "2016-01-15",
+      "claps": 65,
+      "userId": 3
+    },
+    {
+      "id": 123,
+      "tweet": "elit consequat nulla mollit eiusmod exercitation id proident veniam eiusmod sit cupidatat amet dolor ea anim excepteur irure aute do",
+      "date": "2015-03-07",
+      "claps": 35,
+      "userId": 4
+    },
+    {
+      "id": 124,
+      "tweet": "labore exercitation magna nisi exercitation officia duis laboris minim aute in Lorem tempor eu magna mollit aute aliquip dolor reprehenderit",
+      "date": "2014-09-27",
+      "claps": 40,
+      "userId": 1
+    },
+    {
+      "id": 125,
+      "tweet": "elit adipisicing excepteur adipisicing non aliqua sint voluptate deserunt ullamco fugiat amet proident laboris sunt culpa officia tempor fugiat labore",
+      "date": "2017-08-23",
+      "claps": 91,
+      "userId": 1
+    },
+    {
+      "id": 126,
+      "tweet": "labore adipisicing elit eu duis cillum magna ullamco ea Lorem proident dolor incididunt incididunt quis tempor incididunt non labore commodo",
+      "date": "2016-01-21",
+      "claps": 1,
+      "userId": 3
+    },
+    {
+      "id": 127,
+      "tweet": "officia dolore elit sunt mollit irure eu dolor velit veniam ipsum ex eu exercitation ad ullamco eu cillum dolor et",
+      "date": "2019-04-22",
+      "claps": 34,
+      "userId": 2
+    },
+    {
+      "id": 128,
+      "tweet": "est consequat ut velit id cillum nulla consectetur in id quis id reprehenderit magna in est in deserunt velit ad",
+      "date": "2020-05-23",
+      "claps": 47,
+      "userId": 4
+    },
+    {
+      "id": 129,
+      "tweet": "mollit ea consectetur duis ad reprehenderit pariatur consequat consequat elit amet enim officia in quis aliquip nulla nulla non ipsum",
+      "date": "2014-10-29",
+      "claps": 91,
+      "userId": 3
+    },
+    {
+      "id": 130,
+      "tweet": "minim consequat exercitation consectetur adipisicing dolor et sunt proident ex sunt elit anim labore elit minim ut sint aute commodo",
+      "date": "2015-07-04",
+      "claps": 77,
+      "userId": 1
+    },
+    {
+      "id": 131,
+      "tweet": "in aliqua anim cupidatat quis culpa do tempor anim incididunt Lorem veniam aute deserunt anim duis laborum enim esse occaecat",
+      "date": "2017-12-08",
+      "claps": 73,
+      "userId": 3
+    },
+    {
+      "id": 132,
+      "tweet": "et elit do nostrud proident laborum dolor eiusmod elit irure amet commodo ullamco cupidatat mollit enim eiusmod irure adipisicing deserunt",
+      "date": "2019-07-30",
+      "claps": 29,
+      "userId": 4
+    },
+    {
+      "id": 133,
+      "tweet": "quis nisi ex cillum veniam deserunt culpa ad et eiusmod quis fugiat incididunt esse nisi ullamco commodo fugiat Lorem consequat",
+      "date": "2020-04-06",
+      "claps": 9,
+      "userId": 3
+    },
+    {
+      "id": 134,
+      "tweet": "commodo exercitation occaecat ex voluptate culpa ipsum elit id est proident irure deserunt duis nostrud consectetur dolore velit occaecat adipisicing",
+      "date": "2017-07-16",
+      "claps": 11,
+      "userId": 2
+    },
+    {
+      "id": 135,
+      "tweet": "reprehenderit ipsum adipisicing amet laborum ex mollit labore Lorem amet aute mollit sunt qui nisi tempor sint nisi sint anim",
+      "date": "2016-12-16",
+      "claps": 9,
+      "userId": 3
+    },
+    {
+      "id": 136,
+      "tweet": "Lorem minim deserunt laboris voluptate voluptate aute eu nisi voluptate reprehenderit commodo consectetur tempor commodo adipisicing et do Lorem sunt",
+      "date": "2019-05-14",
+      "claps": 4,
+      "userId": 1
+    },
+    {
+      "id": 137,
+      "tweet": "sint id eu dolore esse id veniam sint veniam sint Lorem sit eiusmod do commodo dolor excepteur ullamco veniam sit",
+      "date": "2019-05-25",
+      "claps": 30,
+      "userId": 2
+    },
+    {
+      "id": 138,
+      "tweet": "nostrud deserunt ad incididunt consequat sit eiusmod consequat nisi occaecat sunt deserunt et cupidatat eiusmod irure aliqua aliquip exercitation dolor",
+      "date": "2018-11-03",
+      "claps": 36,
+      "userId": 1
+    },
+    {
+      "id": 139,
+      "tweet": "aliqua aute proident culpa exercitation sint consequat ea nostrud in laborum aliqua voluptate magna aliquip in anim fugiat reprehenderit id",
+      "date": "2014-04-02",
+      "claps": 12,
+      "userId": 4
+    },
+    {
+      "id": 140,
+      "tweet": "velit excepteur elit occaecat irure consectetur ea fugiat consectetur id amet consequat commodo consequat laborum amet ad in proident excepteur",
+      "date": "2019-01-09",
+      "claps": 85,
+      "userId": 1
+    },
+    {
+      "id": 141,
+      "tweet": "minim sunt sit in culpa ad id aute elit ex duis ipsum tempor occaecat commodo labore ut tempor dolore ea",
+      "date": "2014-02-13",
+      "claps": 83,
+      "userId": 1
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "@CaptainAmerica",
+      "role": "user",
+      "usersDetailsId": 1,
+      "profilePic": "https://avatarfiles.alphacoders.com/174/174225.jpg"
+    },
+    {
+      "id": 2,
+      "username": "@IncredibleHulk",
+      "role": "user",
+      "usersDetailsId": 2,
+      "profilePic": "https://i.pinimg.com/600x315/e7/71/26/e77126f6fe72a3063bfc84e1a0427a90.jpg"
+    },
+    {
+      "id": 3,
+      "username": "@Ironman",
+      "role": "user",
+      "usersDetailsId": 3,
+      "profilePic": "https://avatarfiles.alphacoders.com/139/thumb-139523.jpg"
+    },
+    {
+      "id": 4,
+      "username": "@TheAmazingSpiderman",
+      "role": "user",
+      "usersDetailsId": 4,
+      "profilePic": "https://avatarfiles.alphacoders.com/149/thumb-149117.jpg"
+    }
+  ],
+  "usersDetails": [
+    {
+      "id": 1,
+      "firstName": "Steve",
+      "lastName": "Rogers",
+      "birthday": "1918-07-04"
+    },
+    {
+      "id": 2,
+      "firstName": "Bruce",
+      "lastName": "Banner",
+      "birthday": "1969-12-18"
+    },
+    {
+      "id": 3,
+      "firstName": "Tony",
+      "lastName": "Stark",
+      "birthday": "1970-05-29"
+    },
+    {
+      "id": 4,
+      "firstName": "Peter",
+      "lastName": "Parker",
+      "birthday": "1993-08-27"
+    } 
+  ]
+}
