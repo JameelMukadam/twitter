@@ -1,8 +1,8 @@
-import { createSlice, PayloadAction } from "@reduxjs/toolkit";
-import { AppThunk, RootState } from "./store";
-import api from "../services/api";
+import { createSlice, PayloadAction } from '@reduxjs/toolkit';
+import { AppThunk, RootState } from './store';
+import api from '../services/api';
 
-import type { Tweet } from "../services/api";
+import type { Tweet } from '../services/api';
 
 type TweetState = {
   loading: boolean;
@@ -17,7 +17,7 @@ const initialState: TweetState = {
 };
 
 export const tweetSlice = createSlice({
-  name: "tweets",
+  name: 'tweets',
   initialState,
   reducers: {
     addingTweets: (state) => {
