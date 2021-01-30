@@ -19,6 +19,7 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.1",
     "redux-testkit": "^1.0.6",
+    "styled-components": "^5.2.1",
     "typescript": "~3.8.2"
   },
   "scripts": {
@@ -27,7 +28,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "start:prod": "docker-compose up --build --detach && json-server --watch bs-react-redux-test-db.json",
-    "format": "prettier --write \"**/*.{graphql,js,json,jsx,md,ts,tsx}\""
+    "format": "prettier --write \"**/*.{graphql,js,json,jsx,md,ts,tsx}\"",
+    "cypress:open": "cypress open"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -47,7 +49,9 @@
   "devDependencies": {
     "@types/react-router-dom": "^5.1.7",
     "@types/redux-testkit": "^1.0.5",
+    "@types/styled-components": "^5.1.7",
     "axios-mock-adapter": "^1.19.0",
+    "cypress": "^6.3.0",
     "prettier": "^2.2.1"
   }
 }
