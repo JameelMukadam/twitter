@@ -25,7 +25,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "start:prod": "docker-compose up --build --detach && json-server --watch bs-react-redux-test-db.json"
+    "start:prod": "docker-compose up --build --detach && json-server --watch bs-react-redux-test-db.json",
+    "format": "prettier --write \"**/*.{graphql,js,json,jsx,md,ts,tsx}\""
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -44,6 +45,7 @@
   },
   "devDependencies": {
     "@types/redux-testkit": "^1.0.5",
-    "axios-mock-adapter": "^1.19.0"
+    "axios-mock-adapter": "^1.19.0",
+    "prettier": "^2.2.1"
   }
 }

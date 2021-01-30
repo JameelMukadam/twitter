@@ -1,5 +1,5 @@
-import { configureStore, ThunkAction, Action } from '@reduxjs/toolkit';
-import tweetReducer from './tweetSlice';
+import { configureStore, ThunkAction, Action } from "@reduxjs/toolkit";
+import tweetReducer from "./tweetSlice";
 
 export const store = configureStore({
   reducer: {
