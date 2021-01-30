@@ -28,11 +28,9 @@ function HomePage() {
           Error loading tweets: {loadingTweetsError.message}
         </ErrorText>
       )}
-      {isLoadingTweets && <H2>Loading...</H2>}
+      {isLoadingTweets && <H2 data-testid="loading-tweets">Loading...</H2>}
       {tweets.map((tweet) => {
-        return (
-          <TweetCard key={tweet.id} tweet={tweet} data-testid={tweet.id} />
-        );
+        return <TweetCard key={tweet.id} tweet={tweet} />;
       })}
     </Background>
   );

@@ -1,3 +1,5 @@
+import { createYield } from "typescript";
+
 describe('View all tweets on home page', () => {
   const mockedTweets = [
     {
@@ -19,11 +21,13 @@ describe('View all tweets on home page', () => {
   ];
   it('Show all tweets on home page', () => {
     cy.intercept('/tweets', (req) => {
-      Cypress.log({
-        name: 'MOCKED: getTweets',
-      });
       return req.reply(mockedTweets);
     });
     cy.visit('/');
+    cy.get(`[data-testid=loading-tweets]`).should('be.visible')
+    cy.get(`[data-testid=loading-tweets]`).should('not.exist')
+    mockedTweets.forEach(mockedTweet => {
+      cy.get(`[data-testid=tweet-${mockedTweet.id}]`).should('be.visible')
+    })
   });
 });

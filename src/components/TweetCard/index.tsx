@@ -19,7 +19,7 @@ type TweetCardProps = {
 function TweetCard({ tweet }: TweetCardProps) {
   const theme = useTheme();
   return (
-    <Container>
+    <Container data-testid={`tweet-${tweet.id}`}>
       <Avatar> {tweet.userId} </Avatar>
       <Content>
         <Header>
