@@ -8,6 +8,7 @@ import {
 } from '../../redux/tweetSlice';
 import { Background } from './style';
 import { H1, H2, ErrorText } from '../../components/Typography';
+import TweetCard from '../../components/TweetCard';
 
 function HomePage() {
   const tweets = useSelector(selectTweets);
@@ -21,7 +22,7 @@ function HomePage() {
 
   return (
     <Background>
-      <H1>Home Page</H1>
+      <H1>Twitter</H1>
       {loadingTweetsError && !isLoadingTweets && (
         <ErrorText>
           Error loading tweets: {loadingTweetsError.message}
@@ -29,7 +30,9 @@ function HomePage() {
       )}
       {isLoadingTweets && <H2>Loading...</H2>}
       {tweets.map((tweet) => {
-        return <H2 key={tweet.id}>{tweet.tweet}</H2>;
+        return (
+          <TweetCard key={tweet.id} tweet={tweet} data-testid={tweet.id} />
+        );
       })}
     </Background>
   );

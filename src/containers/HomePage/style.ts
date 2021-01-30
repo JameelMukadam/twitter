@@ -10,4 +10,5 @@ export const Background = styled.div`
     height: 100%;
     min-height: 100vh;
     color: ${props => props.theme.colors.secondary};
+    padding-bottom: 18px;
 `;
