@@ -14,8 +14,8 @@ export const H2 = styled.h2`
   margin: 4px;
 `;
 
-export const H3 = styled.h2`
-  color: ${(props) => props.theme.colors.secondary};
+export const H3 = styled.h3`
+  color: ${(props) => props.theme.colors.subHeading};
   font-size: ${(props) => props.theme.fontSizes.subHeading};
   font-weight: ${(props) => props.theme.fontWeights.subHeading};
   margin: 4px;
@@ -30,7 +30,7 @@ export const Paragraph = styled.p`
 
 export const ErrorText = styled.span`
   color: red;
-  font-size: ${(props) => props.theme.fontSizes.subHeading};
+  font-size: ${(props) => props.theme.fontSizes.heading};
   font-weight: ${(props) => props.theme.fontWeights.subHeading};
   margin: 4px;
 `;

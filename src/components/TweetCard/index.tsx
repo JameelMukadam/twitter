@@ -1,6 +1,8 @@
 import React from 'react';
-import { Container, Avatar, Content } from './style';
-import { H2, Paragraph } from '../Typography';
+import { GiHand } from 'react-icons/gi';
+import { useTheme } from 'styled-components';
+import { Container, Avatar, Content, Header, Footer } from './style';
+import { H2, H3, Paragraph } from '../Typography';
 
 type Tweet = {
   id: number;
@@ -15,12 +17,20 @@ type TweetCardProps = {
 };
 
 function TweetCard({ tweet }: TweetCardProps) {
+  const theme = useTheme();
   return (
     <Container>
       <Avatar> {tweet.userId} </Avatar>
       <Content>
-        <H2>UserId: {tweet.userId}</H2>
+        <Header>
+          <H2>UserId: {tweet.userId}</H2>
+          <H3>{tweet.date}</H3>
+        </Header>
         <Paragraph>{tweet.tweet}</Paragraph>
+        <Footer>
+          <H3>{tweet.claps}</H3>
+          <GiHand color={theme.colors.secondary} />
+        </Footer>
       </Content>
     </Container>
   );

@@ -5,6 +5,9 @@ export const Container = styled.div`
     display: flex;
     width: 100%;
     border: 1px solid ${props => props.theme.colors.hover};
+    &:hover {
+        background-color: ${props => props.theme.colors.hover}
+    }
 `;
 
 export const Avatar = styled.div`
@@ -26,4 +29,17 @@ export const Content = styled.div`
     justify-content: space-around;
     width: 100%;
     padding: 8px;
+`;
+
+export const Header = styled.div`
+    display: flex;
+    width: 100%;
+`;
+
+export const Footer = styled.div`
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 4px;
 `;

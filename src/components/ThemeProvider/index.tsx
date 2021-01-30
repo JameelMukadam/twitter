@@ -11,6 +11,7 @@ const theme: DefaultTheme = {
     main: '#151E2B',
     secondary: '#FFFFFF',
     hover: '#343A45',
+    subHeading: '#999999',
   },
   fontSizes: {
     title: '18px',

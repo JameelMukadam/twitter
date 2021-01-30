@@ -10,6 +10,7 @@ declare module 'styled-components' {
       main: string;
       secondary: string;
       hover: string;
+      subHeading: string;
     };
 
     fontSizes: {
