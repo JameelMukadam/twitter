@@ -6,7 +6,7 @@ type ThemeProviderProps = {
 };
 
 const theme: DefaultTheme = {
-  borderRadius: '8px',
+  borderRadius: '18px',
   colors: {
     main: '#151E2B',
     secondary: '#FFFFFF',

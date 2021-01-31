@@ -1,7 +1,12 @@
 import MockAdapter from 'axios-mock-adapter';
 import { Thunk, Selector, Reducer } from 'redux-testkit';
 import api from '../../services/api';
-import TweetReducer, { getTweets, selectTweets } from '../tweetSlice';
+import TweetReducer, {
+  getTweets,
+  selectTweets,
+  postNewTweet,
+  selectSavingTweet,
+} from '../tweetSlice';
 
 describe('Tweets Slice', () => {
   it('getTweets should get tweets from server and post actions', async () => {
@@ -64,7 +69,7 @@ describe('Tweets Slice', () => {
 
   it('should handle addingTweets action', () => {
     const action = { type: 'tweets/addingTweets' };
-    const result = { loading: true, tweets: [], error: null };
+    const result = { loading: true, tweets: [], error: null, saving: false };
     Reducer(TweetReducer).expect(action).toReturnState(result);
   });
 
@@ -88,7 +93,12 @@ describe('Tweets Slice', () => {
       },
     ];
     const action = { type: 'tweets/tweetsReceived', payload: mockedTweets };
-    const result = { loading: false, tweets: mockedTweets, error: null };
+    const result = {
+      loading: false,
+      tweets: mockedTweets,
+      error: null,
+      saving: false,
+    };
     Reducer(TweetReducer).expect(action).toReturnState(result);
   });
 
@@ -101,7 +111,65 @@ describe('Tweets Slice', () => {
       loading: false,
       tweets: [],
       error: new Error('some error'),
+      saving: false,
     };
     Reducer(TweetReducer).expect(action).toReturnState(result);
+  });
+
+  it('postTweet should post tweet to the server and post actions to update state', async () => {
+    const newTweet = {
+      id: 999,
+      tweet:
+        'this is my test post. If you are seeing this then this test post was successful',
+      date: '2020-01-31',
+      claps: 69,
+      userId: 1,
+    };
+    const mock = new MockAdapter(api.axiosInstance);
+    mock.onPost('/tweets', newTweet).reply(201);
+    const dispatches = await Thunk(postNewTweet).execute(newTweet);
+    expect(dispatches.length).toBe(2);
+    expect(dispatches[0].getAction()).toEqual({
+      type: 'tweets/startPostingNewTweet',
+    });
+    expect(dispatches[1].getAction()).toEqual({
+      type: 'tweets/postNewTweetSuccess',
+      payload: newTweet,
+    });
+  });
+
+  it('should handle startPostingNewTweet action', () => {
+    const action = { type: 'tweets/startPostingNewTweet' };
+    const result = { loading: false, tweets: [], error: null, saving: true };
+    Reducer(TweetReducer).expect(action).toReturnState(result);
+  });
+
+  it('should handle postNewTweetSuccess action', () => {
+    const newTweet = {
+      id: 999,
+      tweet:
+        'this is my test post. If you are seeing this then this test post was successful',
+      date: '2020-01-31',
+      claps: 69,
+      userId: 1,
+    };
+    const action = { type: 'tweets/postNewTweetSuccess', payload: newTweet };
+    const result = {
+      loading: false,
+      tweets: [newTweet],
+      error: null,
+      saving: false,
+    };
+    Reducer(TweetReducer).expect(action).toReturnState(result);
+  });
+
+  it('should select saving from state', async () => {
+    const state = {
+      tweet: {
+        saving: true,
+      },
+    };
+    const result = true;
+    Selector(selectSavingTweet).expect(state).toReturn(result);
   });
 });
