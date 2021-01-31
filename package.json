@@ -30,7 +30,8 @@
     "eject": "react-scripts eject",
     "start:prod": "docker-compose up --build --detach && json-server --watch bs-react-redux-test-db.json",
     "format": "prettier --write \"**/*.{graphql,js,json,jsx,md,ts,tsx}\"",
-    "cypress:open": "cypress open"
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run"
   },
   "eslintConfig": {
     "extends": "react-app"
