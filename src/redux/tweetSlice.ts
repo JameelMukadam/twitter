@@ -6,12 +6,14 @@ import type { Tweet } from '../services/api';
 
 type TweetState = {
   loading: boolean;
+  saving: boolean;
   tweets: Tweet[];
   error: Error | null;
 };
 
 const initialState: TweetState = {
   loading: false,
+  saving: false,
   tweets: [],
   error: null,
 };
@@ -31,6 +33,13 @@ export const tweetSlice = createSlice({
       state.tweets = [...state.tweets, ...action.payload];
       state.loading = false;
     },
+    startPostingNewTweet: (state) => {
+      state.saving = true;
+    },
+    postNewTweetSuccess: (state, action: PayloadAction<Tweet>) => {
+      state.saving = false;
+      state.tweets = [...state.tweets, action.payload]
+    },
   },
 });
 
@@ -38,6 +47,8 @@ export const {
   addingTweets,
   addingTweetsError,
   tweetsReceived,
+  startPostingNewTweet,
+  postNewTweetSuccess,
 } = tweetSlice.actions;
 
 export const getTweets = (): AppThunk => async (dispatch) => {
@@ -52,8 +63,21 @@ export const getTweets = (): AppThunk => async (dispatch) => {
   }
 };
 
+export const postNewTweet = (tweet: Tweet): AppThunk => async (dispatch) => {
+  dispatch(startPostingNewTweet());
+  try {
+    const postedTweet = await api.postTweet(tweet)
+    if (postedTweet.ok) {
+      dispatch(postNewTweetSuccess(tweet));
+    } else throw new Error(postedTweet.problem!);
+  } catch (err) {
+    dispatch(addingTweetsError(err));
+  }
+}
+
 export const selectTweets = (state: RootState) => state.tweet.tweets;
 export const selectLoadingTweets = (state: RootState) => state.tweet.loading;
+export const selectSavingTweet = (state: RootState) => state.tweet.saving;
 export const selectLoadingTweetsError = (state: RootState) => state.tweet.error;
 
 export default tweetSlice.reducer;
