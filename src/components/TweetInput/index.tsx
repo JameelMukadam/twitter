@@ -12,11 +12,13 @@ function TweetInput({ saving, onPostTweet }: TweetInputProps) {
     <Container>
       <Input
         placeholder={`What's on your mind?`}
+        data-testid="tweet-input"
         value={tweet}
         onChange={(e) => setTweet(e.target.value)}
       />
       <br />
       <Button
+        data-testid="post-tweet-button"
         onClick={() => {
           if (!saving) onPostTweet(tweet);
         }}
