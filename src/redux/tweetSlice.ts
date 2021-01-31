@@ -8,14 +8,20 @@ type TweetState = {
   loading: boolean;
   saving: boolean;
   tweets: Tweet[];
+  pageNumber: number;
+  maxPageNumber: number;
+  totalTweets: number;
   error: Error | null;
 };
 
 const initialState: TweetState = {
   loading: false,
   saving: false,
-  tweets: [],
   error: null,
+  tweets: [],
+  pageNumber: 1,
+  maxPageNumber: 1,
+  totalTweets: 0,
 };
 
 export const tweetSlice = createSlice({
@@ -30,7 +36,7 @@ export const tweetSlice = createSlice({
       state.error = action.payload;
     },
     tweetsReceived: (state, action: PayloadAction<Tweet[]>) => {
-      state.tweets = [...state.tweets, ...action.payload];
+      state.tweets = [...action.payload];
       state.loading = false;
     },
     startPostingNewTweet: (state) => {
@@ -38,8 +44,14 @@ export const tweetSlice = createSlice({
     },
     postNewTweetSuccess: (state, action: PayloadAction<Tweet>) => {
       state.saving = false;
-      state.tweets = [...state.tweets, action.payload]
+      state.tweets = [action.payload, ...state.tweets]
     },
+    updateMaxPageNumber:  (state, action: PayloadAction<number>) => {
+      state.maxPageNumber = action.payload;
+    }, 
+    updateTotalTweets:  (state, action: PayloadAction<number>) => {
+      state.totalTweets = action.payload;
+    }, 
   },
 });
 
@@ -49,12 +61,20 @@ export const {
   tweetsReceived,
   startPostingNewTweet,
   postNewTweetSuccess,
+  updateMaxPageNumber,
+  updateTotalTweets,
 } = tweetSlice.actions;
 
-export const getTweets = (): AppThunk => async (dispatch) => {
+export const getTweets = (page?: number): AppThunk => async (dispatch) => {
   dispatch(addingTweets());
   try {
-    const tweets = await api.getTweets();
+    const tweets = await api.getTweets(page);
+    if (tweets.headers && tweets.headers['x-total-count'] && Number(tweets.headers['x-total-count'])) {
+      const totalTweets = Number(tweets.headers['x-total-count']);
+      const maxPageNumber = Math.ceil(totalTweets / 10);
+      dispatch(updateMaxPageNumber(maxPageNumber))
+      dispatch(updateTotalTweets(totalTweets))
+    }
     if (tweets.ok && tweets.data) {
       dispatch(tweetsReceived(tweets.data));
     } else throw new Error(tweets.problem!);
@@ -77,6 +97,9 @@ export const postNewTweet = (tweet: Tweet): AppThunk => async (dispatch) => {
 
 export const selectTweets = (state: RootState) => state.tweet.tweets;
 export const selectLoadingTweets = (state: RootState) => state.tweet.loading;
+export const selectPageNumber = (state: RootState) => state.tweet.pageNumber;
+export const selectMaxPageNumber = (state: RootState) => state.tweet.maxPageNumber;
+export const selectTotalTweets = (state: RootState) => state.tweet.totalTweets;
 export const selectSavingTweet = (state: RootState) => state.tweet.saving;
 export const selectLoadingTweetsError = (state: RootState) => state.tweet.error;
 

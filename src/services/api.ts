@@ -19,10 +19,9 @@ const create = (baseURL: string = API) => {
     timeout: 10000,
   });
 
-  const getTweets: () => Promise<ApiResponse<Tweet[]>> = () =>
-    api.get('/tweets');
+  const getTweets: (page?: number) => Promise<ApiResponse<Tweet[]>> = (page = 1) => page ? api.get(`/tweets?_page=${page}`) : api.get('/tweets');
   
-  const postTweet: (tweet: Tweet) => Promise<ApiResponse<Tweet>> = (tweet: Tweet) =>
+  const postTweet: (tweet: Tweet) => Promise<ApiResponse<Tweet>> = (tweet) =>
     api.post('/tweets', tweet);
 
   return {

@@ -29,8 +29,8 @@ describe('Tweets Slice', () => {
       },
     ];
     const mock = new MockAdapter(api.axiosInstance);
-    mock.onGet('/tweets').reply(201, mockedTweets);
-    const dispatches = await Thunk(getTweets).execute();
+    mock.onGet('/tweets?_page=1').reply(201, mockedTweets);
+    const dispatches = await Thunk(getTweets).execute(1);
     expect(dispatches.length).toBe(2);
     expect(dispatches[0].getAction()).toEqual({ type: 'tweets/addingTweets' });
     expect(dispatches[1].getAction()).toEqual({
@@ -69,7 +69,15 @@ describe('Tweets Slice', () => {
 
   it('should handle addingTweets action', () => {
     const action = { type: 'tweets/addingTweets' };
-    const result = { loading: true, tweets: [], error: null, saving: false };
+    const result = {
+      loading: true,
+      tweets: [],
+      error: null,
+      saving: false,
+      pageNumber: 1,
+      maxPageNumber: 1,
+      totalTweets: 0,
+    };
     Reducer(TweetReducer).expect(action).toReturnState(result);
   });
 
@@ -98,6 +106,9 @@ describe('Tweets Slice', () => {
       tweets: mockedTweets,
       error: null,
       saving: false,
+      pageNumber: 1,
+      maxPageNumber: 1,
+      totalTweets: 0,
     };
     Reducer(TweetReducer).expect(action).toReturnState(result);
   });
@@ -112,6 +123,9 @@ describe('Tweets Slice', () => {
       tweets: [],
       error: new Error('some error'),
       saving: false,
+      pageNumber: 1,
+      maxPageNumber: 1,
+      totalTweets: 0,
     };
     Reducer(TweetReducer).expect(action).toReturnState(result);
   });
@@ -140,7 +154,15 @@ describe('Tweets Slice', () => {
 
   it('should handle startPostingNewTweet action', () => {
     const action = { type: 'tweets/startPostingNewTweet' };
-    const result = { loading: false, tweets: [], error: null, saving: true };
+    const result = {
+      loading: false,
+      tweets: [],
+      error: null,
+      saving: true,
+      pageNumber: 1,
+      maxPageNumber: 1,
+      totalTweets: 0,
+    };
     Reducer(TweetReducer).expect(action).toReturnState(result);
   });
 
@@ -159,6 +181,9 @@ describe('Tweets Slice', () => {
       tweets: [newTweet],
       error: null,
       saving: false,
+      pageNumber: 1,
+      maxPageNumber: 1,
+      totalTweets: 0,
     };
     Reducer(TweetReducer).expect(action).toReturnState(result);
   });
