@@ -21,9 +21,13 @@ const create = (baseURL: string = API) => {
 
   const getTweets: () => Promise<ApiResponse<Tweet[]>> = () =>
     api.get('/tweets');
+  
+  const postTweet: (tweet: Tweet) => Promise<ApiResponse<Tweet>> = (tweet: Tweet) =>
+    api.post('/tweets', tweet);
 
   return {
     getTweets,
+    postTweet,
     axiosInstance: api.axiosInstance,
   };
 };
